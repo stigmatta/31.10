@@ -1,0 +1,130 @@
+body,.computer-container{
+    width: 1500px;
+    font-family: monospace;
+}
+
+.computer{
+    float:left;
+    position: relative;
+    width:20%;
+    height: 600px;
+    margin-left: 20px;
+    margin-top: 100px;
+    border: 1px solid black;
+}
+.star-container{
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+    color: rgb(216, 216, 7);
+    width:100px;
+    font-size: 17px;
+    padding-left: 5px;
+}
+.reviews{
+    font-size: 12px;
+    margin-top: 25px;
+    float:left;
+    color: blue;
+    display: inline;
+}
+.star{
+    margin-left: 2px;
+    float:left;
+    width: 15%;
+    height: 100%;
+}
+.line-through,.mini-text{
+    opacity: 0.9;
+    margin-left: 20px;
+    margin-top: 10px;
+    color: rgb(78, 71, 71);
+    font-size: 12px;
+    float:left;
+}
+.line-through{
+    text-decoration: line-through;
+}
+.cart{
+    float:right;
+    font-size: 25px;
+    margin-right: 15px;
+}
+.main-price{
+    margin-left: 20px;
+    margin-top: 10px;
+    color:rgb(223, 56, 56);
+    font-size: 24px;
+    float:left;
+}
+.computer-image{
+    height: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    margin-top: 100px;
+}
+.computer-image img {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transition: opacity 1s ease; 
+}
+.computer-description {
+    clear:both;
+    opacity: 0;
+    height: 100%;
+    transition: opacity 1s ease;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.computer-image,
+.computer-description {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.computer-image:hover img {
+    opacity: 0; 
+}
+
+.computer-image:hover .computer-description {
+    opacity: 1; 
+}
+
+.gray-heart{
+    float:right;
+    font-size: 40px;
+    text-align: center;
+    transition: color 0.6s ease;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+.gray-heart:hover{
+    color:red;
+}
+.title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 15px;
+    color: #221f1f;
+}
+.sale{
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top:20px;
+    left:10px;
+    float:left;
+    text-align: center;
+    line-height: 40px;
+    background-color: rgb(190, 70, 70);
+    width:100px;
+    height: 40px;
+    color:white;
+    border-radius: 10px;
+    
+}
+.clear{
+    clear: both;
+}

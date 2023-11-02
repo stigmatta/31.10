@@ -1,0 +1,236 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.clear{
+    clear: both;
+}
+#sale{
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top:20px;
+    left:60px;
+    text-align: center;
+    line-height: 40px;
+    background-color: rgb(190, 70, 70);
+    width:100px;
+    height: 40px;
+    color:white;
+    border-radius: 20px;
+}
+#computer-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+    width:600px;
+    height: 500px;
+    border:1px solid black;
+}
+#computer-image{
+    width: 600px;
+    height: 400px;
+}
+#computer-image img{
+    width: 100%;
+    height: 100%;
+}
+#images-container{
+    margin-left: 6px;
+    width:600px;
+    height:70px;
+}
+.one-image{
+    display: flex;
+    align-items: center;
+    width:10%;
+    height: 100%;
+    float:left;
+    margin-left: 5px;
+}
+.selected{
+    border:1px solid black;
+}
+.one-image img{
+    width:100%;
+}
+#size-80-img{
+    height:80%;
+}
+#size-80-img img{
+    height:100%;
+}
+#recomendation{
+    border: 1px solid black;
+    border-radius: 5px;
+    height:100px;
+    overflow: hidden;
+}
+#mini-recomendation{
+    font-size: 10px;
+    margin-top: 5px;
+    color:grey;
+}
+#rec-img{
+    float:left;
+    height:50px;
+    text-align: center;
+    margin-left: 10px;
+}
+#green-text-recomendation{
+    color:green;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+#recomendation-description{
+    width:70%;
+    font-size:14px;
+    margin-top: 5px;
+    margin-left: 105px;
+    margin-right: 50px;
+}
+#recomendation-price{
+    float:right;
+    font-weight: bold;
+    font-size:14px;
+    margin-right: 10px;
+}
+#rec-img img{
+    height: 100%;
+}
+#right-half{
+    float:right;
+    margin-right: 30px;
+    width:45%;
+}
+#left-half{
+    float:left;
+    margin-left: 30px;
+    width: 45%;
+}
+#code{
+    float:right;
+    color: rgb(221, 179, 179);
+    font-size: small;
+}
+#description{
+    font-size: larger;
+    font-weight: bold;
+}
+#buy{
+    margin-top: 100px;
+    height:250px;
+    border: 1px solid grey;
+}
+#saler{
+    float:left;
+    color: rgb(221, 179, 179);
+    font-size: small;
+    margin-top:10px;
+    margin-left:20px;
+}
+#rozetka{
+    float:left;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+#rozetka img{
+    height: 100%;
+}
+#price-container{
+    margin-top: 10px;
+    float:left;
+    width: fit-content;
+}
+#line-through{
+    opacity: 0.9;
+    color: rgb(78, 71, 71);
+    font-size: 12px;
+    text-decoration: line-through;
+}
+#line-through,#main-price,#mini-text{
+    margin-left: 20px;
+    margin-top: 3px;
+}
+#main-price{
+    font-size: 20px;
+    font-weight: bold;
+}
+#main-price{
+    color:rgb(223, 56, 56);
+}
+#mini-text{
+    color:rgb(82, 212, 82);
+    margin-bottom: 5px;
+    font-size:12px;
+}
+#cart{
+    float:left;
+    margin-right: 20px;
+    color:white;
+}
+#buy-text{
+    float:left;
+    color:white;
+}
+#credit,#buy-button{
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width:170px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+#buy-button{
+    background-color: rgb(50, 177, 50);
+    color:white;
+}
+#credit{
+    border: 1px solid gray;
+    color:gray;
+}
+#weight-scale{
+    float:left;
+    height: 20px;
+    margin-top: 33px;
+    margin-left: 15px;
+}
+#hearts{
+    float:left;
+    color:yellow;
+    margin-top: 23px;
+    margin-left: 10px;
+    font-size: 27px;
+}
+#bank-container{
+    overflow: hidden;
+    width:80%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.bank{
+    float:left;
+    margin-left: 15px;
+    width:8%;
+    background-color: rgb(212, 174, 174);
+}
+.bank img{
+    width: 100%;
+}
+#banner{
+    height: 50px;
+    line-height: 50px;
+    background-color: rgb(95, 14, 133);
+    color: yellow;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+#weight-scale img{
+    height:100%;
+}
